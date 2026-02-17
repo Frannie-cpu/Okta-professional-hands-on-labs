@@ -2,13 +2,13 @@
 
 This repository documents my hands-on practice of IAM principles and fundamentals with okta.
 
-## Environment used
+## The environment used
 
 - Okta Workforce / Integrator Free Plan
 - Identity Engine enabled
 - Custom business domain email
 
-## Skills Practiced
+## These skills were practiced
 
 - User lifecycle management
 - Group-based access control
