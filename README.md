@@ -1,2 +1,28 @@
 # Okta-professional-hands-on-labs
-Okta Professional Hands On Labs
+
+This repository documents my hands-on practice of IAM principles and fundamentals with okta.
+
+## Environment used
+
+- Okta Workforce / Integrator Free Plan
+- Identity Engine enabled
+- Custom business domain email
+
+## Skills Practiced
+
+- User lifecycle management
+- Group-based access control
+- Application assignment
+- MFA & authenticator configuration
+- Sign-on policy creation
+- Account recovery & unlock
+- System Log troubleshooting
+
+## Lab Structure
+
+Each lab includes:
+- Objective
+- Configuration steps
+- Expected behavior
+- Troubleshooting notes
+- Screenshots
