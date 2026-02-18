@@ -6,7 +6,7 @@
 3. Logged into Admin Console
 
 ### Screenshots
-See /screenshots folder 
+See the screenshots here: [Screenshots Folder](./screenshots/)
 
 ### Observations
 - Identity Engine enabled by default
