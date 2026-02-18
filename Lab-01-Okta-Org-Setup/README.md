@@ -6,7 +6,7 @@
 3. Logged into Admin Console
 
 ### Screenshots
-All screenshots for this lab are in the `screenshots` folder:
+All screenshots for this lab 1 are in the `screenshots` folder:
 
 [View Screenshots](./screenshots/)
 
