@@ -6,7 +6,9 @@
 3. Logged into Admin Console
 
 ### Screenshots
-See the screenshots here: [Screenshots Folder](./screenshots/)
+All screenshots for this lab are in the `screenshots` folder:
+
+[View Screenshots](./screenshots/)
 
 ### Observations
 - Identity Engine enabled by default
