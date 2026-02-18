@@ -10,6 +10,7 @@ This repository documents my hands-on practice of IAM principles and fundamental
 
 ## These skills were practiced
 
+- Okta download and setup
 - User lifecycle management
 - Group-based access control
 - Application assignment
