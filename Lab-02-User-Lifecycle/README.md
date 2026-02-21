@@ -11,11 +11,16 @@ To implement and analyze User Lifecycle Management (ULM) in Okta by creating use
 
    
 Created user in Directory → People
+
+
 Tested both:
 Admin-set password
+
 User-activated via email
-Observed initial Staged status prior to activation
-(Insert screenshot here titled User account was created but not activated, resulting in staged status)
+
+Observed initial Staged status prior to activation(Insert screenshot here titled User account was created but not activated, resulting in staged status)
+
+
 Activated user and confirmed transition to Active
 (Insert screenshot here titled Activation changed status to Active, enabling authentication)
 
