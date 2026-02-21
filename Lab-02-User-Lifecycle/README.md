@@ -8,6 +8,8 @@ To implement and analyze User Lifecycle Management (ULM) in Okta by creating use
 
 ## Configuration Steps
 1. User Creation (Joiner Phase)
+
+   
 Created user in Directory → People
 Tested both:
 Admin-set password
@@ -18,17 +20,17 @@ Activated user and confirmed transition to Active
 (Insert screenshot here titled Activation changed status to Active, enabling authentication)
 
 
-2. Suspension (Temporary Access Restriction)
+3. Suspension (Temporary Access Restriction)
 Suspended active user account
 Attempted login via incognito session
 (Insert screenshot here titled Suspended users cannot log in but retain assignments)
 
-3. Deactivation (Leaver Phase)
+4. Deactivation (Leaver Phase)
 Deactivated user account
 Verified: Access revoked, Sessions terminated, Application access removed
 IAM insight: Deactivation enforces complete access revocation and is used during employee offboarding
 
-4. Password Reset
+5. Password Reset
 Initiated admin password reset
 Verified session invalidation behavior
 Security Insight: Password resets invalidate active sessions, reducing account compromise risk
