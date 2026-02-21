@@ -7,39 +7,66 @@ To implement and analyze User Lifecycle Management (ULM) in Okta by creating use
 (insert lucidchart diagram with description footer text This architecture demonstrates how user lifecycle states in Okta affect authentication and downstream application access. Administrative actions directly influence user status and access permissions.)
 
 ## Configuration Steps
-1. User Creation (Joiner Phase)
+### 1. User Creation (Joiner Phase)
 
-   
-Created user in Directory → People
-
+Created user in **Directory → People**.
 
 Tested both:
-Admin-set password and User-activated via email
+- Admin-set password  
+- User-activated via email  
+
+Observed initial **Staged** status prior to activation.  
+(Insert screenshot here titled *"User account was created but not activated, resulting in staged status"*).
+
+Activated user and confirmed transition to **Active**.  
+(Insert screenshot here titled *"Activation changed status to Active, enabling authentication"*).
 
 
-Observed initial Staged status prior to activation(Insert screenshot here titled User account was created but not activated, resulting in staged status)
+### 2. Suspension (Temporary Access Restriction)
+
+Suspended active user account.
+
+Attempted login via incognito session.  
+(Insert screenshot here titled *"Suspended users cannot log in but retain assignments"*).
 
 
-Activated user and confirmed transition to Active
-(Insert screenshot here titled Activation changed status to Active, enabling authentication)
+### 3. Deactivation (Leaver Phase)
+
+Deactivated user account.
+
+Verified:
+- Access revoked  
+- Sessions terminated  
+- Application access removed  
+
+**IAM Insight:**  
+Deactivation enforces complete access revocation and is used during employee offboarding.
+
+(Insert screenshot here titled *"Deactivation revoked access and terminated active sessions"*).
 
 
-2. Suspension (Temporary Access Restriction)
-Suspended active user account
-Attempted login via incognito session
-(Insert screenshot here titled Suspended users cannot log in but retain assignments)
+### 4. Password Reset
 
-3. Deactivation (Leaver Phase)
+Initiated admin password reset.
 
-   
-Deactivated user account
+Verified session invalidation behavior.
 
-
-Verified: Access revoked, Sessions terminated, Application access removed
+**Security Insight:**  
+Password resets invalidate active sessions, reducing account compromise risk.
 
 
-IAM insight: Deactivation enforces complete access revocation and is used during employee offboarding
+### 5. Account Lockout Simulation
 
+Triggered lockout via failed login attempts.
+
+Reviewed lockout event in **System Log**.
+
+Unlocked user via admin action.
+
+**IAM Insight:**  
+Lockout protects against brute-force attacks while preserving access assignments.
+
+(Insert screenshot here titled *"System Log shows failed authentication attempts leading to lockout"*).
 4. Password Reset
 
    
