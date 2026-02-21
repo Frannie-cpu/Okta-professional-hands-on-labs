@@ -24,9 +24,8 @@ Activated user and confirmed transition to **Active**.
 
 ### 2. Suspension (Temporary Access Restriction)
 
-Suspended active user account.
-
-Attempted login via incognito session.  
+- Suspended active user account.
+- Attempted login via incognito session.  
 (Insert screenshot here titled *"Suspended users cannot log in but retain assignments"*).
 
 
