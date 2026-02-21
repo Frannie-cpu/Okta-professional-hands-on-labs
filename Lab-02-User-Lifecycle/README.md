@@ -67,7 +67,9 @@ Unlocked user via admin action.
 Lockout protects against brute-force attacks while preserving access assignments.
 
 (Insert screenshot here titled *"System Log shows failed authentication attempts leading to lockout"*).
-4. Password Reset
+
+
+### 6. Password Reset
 
    
 Initiated admin password reset
@@ -79,11 +81,21 @@ Verified session invalidation behavior
 Security Insight: Password resets invalidate active sessions, reducing account compromise risk
 (Insert screenshot here titled Deactivation revoked access and terminated active sessions)
 
-5.Account Lockout Simulation
-Triggered lockout via failed login attempts
-Reviewed lockout event in System Log
-Unlocked user via admin action
-IAM Insight:Lockout protects against brute-force attacks while preserving access assignments
+### 7.Account Lockout Simulation
+
+
+Triggered lockout via failed login attempts.
+
+
+Reviewed lockout event in System Log.
+
+
+Unlocked user via admin action.
+
+
+**IAM Insight:**
+
+Lockout protects against brute-force attacks while preserving access assignments
 (Insert screenshot here titled System Log shows failed authentication attempts leading to lockout)
 
 ## Expected Behavior/Result
