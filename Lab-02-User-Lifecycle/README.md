@@ -108,10 +108,10 @@ IAM Insight:Suspension is used for temporary access restriction without removing
 Issue: Unsuccessful log in
 User reports authentication failure
 Investigation Steps:
-1. Navigated to Reports → System Log
-2. Filtered logs by username
-3. Identified event type: user.session.start
-4. Observed failure reason: Account locked due to multiple failed attempts.
+- Navigated to Reports → System Log
+- Filtered logs by username
+- Identified event type: user.session.start
+- Observed failure reason: Account locked due to multiple failed attempts.
 Root Cause:
  Exceeded password policy lockout threshold.
 How i resolved the issue:
