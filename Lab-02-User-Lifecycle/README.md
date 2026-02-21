@@ -14,9 +14,8 @@ Created user in Directory → People
 
 
 Tested both:
-Admin-set password
+Admin-set password and User-activated via email
 
-User-activated via email
 
 Observed initial Staged status prior to activation(Insert screenshot here titled User account was created but not activated, resulting in staged status)
 
@@ -25,19 +24,31 @@ Activated user and confirmed transition to Active
 (Insert screenshot here titled Activation changed status to Active, enabling authentication)
 
 
-3. Suspension (Temporary Access Restriction)
+2. Suspension (Temporary Access Restriction)
 Suspended active user account
 Attempted login via incognito session
 (Insert screenshot here titled Suspended users cannot log in but retain assignments)
 
-4. Deactivation (Leaver Phase)
+3. Deactivation (Leaver Phase)
+
+   
 Deactivated user account
+
+
 Verified: Access revoked, Sessions terminated, Application access removed
+
+
 IAM insight: Deactivation enforces complete access revocation and is used during employee offboarding
 
-5. Password Reset
+4. Password Reset
+
+   
 Initiated admin password reset
+
+
 Verified session invalidation behavior
+
+
 Security Insight: Password resets invalidate active sessions, reducing account compromise risk
 (Insert screenshot here titled Deactivation revoked access and terminated active sessions)
 
