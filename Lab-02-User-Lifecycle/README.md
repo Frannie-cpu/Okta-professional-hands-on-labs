@@ -81,7 +81,7 @@ Verified session invalidation behavior
 Security Insight: Password resets invalidate active sessions, reducing account compromise risk
 (Insert screenshot here titled Deactivation revoked access and terminated active sessions)
 
-### 7.Account Lockout Simulation
+### 7. Account Lockout Simulation
 
 
 Triggered lockout via failed login attempts.
