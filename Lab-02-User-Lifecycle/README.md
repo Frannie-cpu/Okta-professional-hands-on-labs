@@ -102,7 +102,10 @@ Lockout protects against brute-force attacks while preserving access assignments
 - Access granted based on group membership
 - User successfully provisioned and able to authenticate
 - Suspended user authentication blocked while group and application assignments remained intact
-IAM Insight:Suspension is used for temporary access restriction without removing entitlements
+
+
+  **IAM Insight:** 
+Suspension is used for temporary access restriction without removing entitlements
 
 ## Troubleshooting Scenario
 Issue: Unsuccessful log in
