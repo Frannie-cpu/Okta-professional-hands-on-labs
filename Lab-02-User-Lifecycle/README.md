@@ -17,6 +17,7 @@ Observed initial Staged status prior to activation
 Activated user and confirmed transition to Active
 (Insert screenshot here titled Activation changed status to Active, enabling authentication)
 
+
 3. Suspension (Temporary Access Restriction)
 
 Suspended active user account
