@@ -30,6 +30,8 @@ Tested new users ability to log in. see 4 screenshots.
 - Attempted login via incognito session.  
 (Insert screenshot here titled *"Suspended users cannot log in but retain assignments"*).
 
+  **IAM Insight:** 
+Suspension is used for temporary access restriction without removing entitlements
 
 ### 3. Deactivation (Leaver Phase)
 
@@ -82,32 +84,11 @@ Verified session invalidation behavior
 Security Insight: Password resets invalidate active sessions, reducing account compromise risk
 (Insert screenshot here titled Deactivation revoked access and terminated active sessions)
 
-### 7. Account Lockout Simulation
-
-
-Triggered lockout via failed login attempts.
-
-
-Reviewed lockout event in System Log.
-
-
-Unlocked user via admin action.
-
-
-**IAM Insight:**
-
-Lockout protects against brute-force attacks while preserving access assignments
-(Insert screenshot here titled System Log shows failed authentication attempts leading to lockout)
-
 ## Expected Behavior/Result
 - User receives activation email
 - Access granted based on group membership
 - User successfully provisioned and able to authenticate
 - Suspended user authentication blocked while group and application assignments remained intact
-
-
-  **IAM Insight:** 
-Suspension is used for temporary access restriction without removing entitlements
 
 ## Troubleshooting Scenario
 Issue: Unsuccessful log in
