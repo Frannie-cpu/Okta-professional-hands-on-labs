@@ -22,7 +22,7 @@ User receives activation email and sets their desired password.
 Activated user and confirmed transition to **Active**.  
 (Insert screenshot here titled *"Activation changed status to Active, enabling authentication"*).
 
-Tested new users ability to log in. see 3 screenshots.
+Tested new users ability to log in. see 4 screenshots.
 
 ### 2. Suspension (Temporary Access Restriction)
 
