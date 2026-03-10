@@ -8,6 +8,7 @@ Instead of assigning permissions to individual users, access is managed through 
 #### 1. Creating a Role-Based Group
 
 Added "Title and Description" attributes to newly created user profile.
+Title: Techinical Support Specialist and Description: Engineering
 Created a new group in **Directory → Groups** to represent a role within the organization.
 
 Example configuration:
