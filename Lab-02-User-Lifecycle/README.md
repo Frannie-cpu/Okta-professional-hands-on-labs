@@ -50,15 +50,17 @@ Deactivation enforces complete access revocation and is used during employee off
 
 ### 4. Password Reset
 
-Initiated admin password reset.
-
-Verified session invalidation behavior.
-
-**Security Insight:**  
-Password resets invalidate active sessions, reducing account compromise risk.
+Initiated admin password reset
 
 
-### 5. Account Lockout Simulation
+Verified session invalidation behavior
+
+
+**Security Insight:**  Password resets invalidate active sessions, reducing account compromise risk
+(Insert screenshot here titled Deactivation revoked access and terminated active sessions)
+
+
+ ### 5. Account Lockout Simulation
 
 Triggered lockout via failed login attempts.
 
@@ -71,18 +73,6 @@ Lockout protects against brute-force attacks while preserving access assignments
 
 (Insert screenshot here titled *"System Log shows failed authentication attempts leading to lockout"*).
 
-
-### 6. Password Reset
-
-   
-Initiated admin password reset
-
-
-Verified session invalidation behavior
-
-
-Security Insight: Password resets invalidate active sessions, reducing account compromise risk
-(Insert screenshot here titled Deactivation revoked access and terminated active sessions)
 
 ## Expected Behavior/Result
 - User receives activation email
