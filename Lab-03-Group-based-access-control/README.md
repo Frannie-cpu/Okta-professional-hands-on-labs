@@ -33,6 +33,8 @@ Example rule condition:
 - If `Department = Engineering`
 - Then assign user to **Engineering-Team** group.
 
+(Insert screenshot here titled "Created Group Rule For Engineering")
+
 Verification:
 - Newly created users with the Engineering department attribute were automatically added to the group.
 
