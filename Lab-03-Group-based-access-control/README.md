@@ -7,10 +7,10 @@ Instead of assigning permissions to individual users, access is managed through 
 
 #### 1. Creating a Role-Based Group
 
-Added "Title and Description" attributes to newly created user profile.
-**Title:** Techinical Support Specialist **Description:** Engineering
+Added "Title and Department" attributes to newly created user profile.
+**Title:** Techinical Support Specialist **Department:** Engineering
 
-Created a new group in **Directory → Groups** to represent a role within the organization.
+Created a new group in **Directory → Groups** to represent the Enineering role within the organization.
 
 Example configuration:
 - **Group Name:** Engineering
