@@ -47,19 +47,6 @@ Deactivation enforces complete access revocation and is used during employee off
 
 (Insert screenshot here titled *"Deactivation revoked access and terminated active sessions"*).
 
-
-### 4. Password Reset
-
-Initiated admin password reset
-
-
-Verified session invalidation behavior
-
-
-**Security Insight:**  Password resets invalidate active sessions, reducing account compromise risk
-(Insert screenshot here titled Deactivation revoked access and terminated active sessions)
-
-
 ## Expected Behavior/Result
 - User receives activation email
 - Access granted based on group membership
