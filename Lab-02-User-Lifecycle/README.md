@@ -45,7 +45,7 @@ Verified:
 **IAM Insight:**  
 Deactivation enforces complete access revocation and is used during employee offboarding.
 
-(Insert screenshot here titled *"Deactivation revoked access and terminated active sessions"*).
+(Insert screenshot here titled *"Deactivation revoked access and terminated active sessions"*). 
 
 ## Expected Behavior/Result
 - User receives activation email
