@@ -15,7 +15,7 @@ This repository documents my hands-on practice of IAM principles and fundamental
 - Group-based access control
 - Application assignment
 - MFA & authenticator configuration
-- Sign-on policy creation
+- Single Sign-on SSO policy creation
 - Account recovery & unlock
 - System Log troubleshooting
 
