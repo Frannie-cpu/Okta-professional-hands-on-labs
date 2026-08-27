@@ -12,12 +12,3 @@ This repository documents my hands-on practice of IAM principles and fundamental
 
 - Okta download and setup
 - User Provisioning
-
-## Lab Structure
-
-Each lab includes:
-- Objective
-- Configuration steps
-- Expected behavior
-- Troubleshooting notes
-- Screenshots
