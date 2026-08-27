@@ -24,38 +24,6 @@ Activated user and confirmed transition to **Active**.
 
 Tested new users ability to log in. see 4 screenshots.
 
-### 2. Suspension (Temporary Access Restriction)
-
-- Suspended active user account.
-- Attempted login via incognito session.  
-(Insert screenshot here titled *"Suspended users cannot log in but retain assignments"*).
-
-  **IAM Insight:** 
-Suspension is used for temporary access restriction without removing entitlements
-
-### 3. Deactivation (Leaver Phase)
-
-Deactivated user account.
-
-Verified:
-- Access revoked  
-- Sessions terminated  
-- Application access removed  
-
-**IAM Insight:**  
-Deactivation enforces complete access revocation and is used during employee offboarding.
-
-(Insert screenshot here titled *"Deactivation revoked access and terminated active sessions"*). 
-
-## Expected Behavior/Result
-- User receives activation email
-- Access granted based on group membership
-- User successfully provisioned and able to authenticate
-- Suspended user authentication blocked while group and application assignments remained intact
-
-
-## Screenshots
-(Insert all screenshots mentioned above)
 
 ## What is User Lifecycle Management?
 User Lifecycle Management (ULM) is the process of managing digital identities from account creation to deactivation, ensuring proper access control throughout the user’s relationship with the organization
