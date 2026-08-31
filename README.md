@@ -25,7 +25,6 @@ This repository documents my hands-on practice of IAM principles and fundamental
 All screenshots for this lab 1 are in the `screenshots` folder or click on the link below to view each step visually:
 
 [View Screenshots](Lab-01-Okta-Org-Setup/screenshots)
-Lab-01-Okta-Org-Setup/screenshots
 
 ### Observations
 - Identity Engine enabled by default
