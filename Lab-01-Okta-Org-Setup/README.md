@@ -6,10 +6,14 @@
 3. Logged into Admin Console
 
 ### Screenshots
-All screenshots for this lab 1 are in the `screenshots` folder or click on the link below to view each step visually:
+All screenshots for this lab 1 are in the `screenshots` folder. 
 
+Please click on the link below to see all pictures. 
+ 
 [View Screenshots](./screenshots/)
 
 ### Observations
 - Identity Engine enabled by default
 - Default password authenticator active
+
+Lab 2 covers User provisioning on OKTA
