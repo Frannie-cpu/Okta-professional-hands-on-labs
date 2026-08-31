@@ -24,29 +24,38 @@ However, this page could only covers one User Creation (Joiner Phase)
 ## Configuration
 **User Creation (Joiner Phase)**
    
-- Created 2 users manually through **Directory** → **People**
+- Created a new user/employee **(Cisca Joseph)** manually through **Directory** → **People**
+  
+[Added Cisca Joseph as new employee](https://github.com/Frannie-cpu/Okta-professional-hands-on-labs/blob/main/Lab-02-User-Lifecycle/screenshots/Provisioning%20Add%20user.png)
 
+- I used Admin-set password for Cisca Joseph and observed initial **Staged** status prior to activation.
 
-- I used Admin-set password for one user and observed initial **Staged** status prior to activation.
-
-[User account was created but not activated, resulting in staged status](https://github.com/Frannie-cpu/Okta-professional-hands-on-labs/blob/main/Lab-02-User-Lifecycle/screenshots/staged%20unactivated%20user.png)
+[Cisca Joseph's account was created but not activated, resulting in staged status](https://github.com/Frannie-cpu/Okta-professional-hands-on-labs/blob/main/Lab-02-User-Lifecycle/screenshots/staged%20unactivated%20user.png)
 
 [System awaiting user activation](https://github.com/Frannie-cpu/Okta-professional-hands-on-labs/blob/main/Lab-02-User-Lifecycle/screenshots/pending%20user%20action%20to%20activate%20account.png)
 
-- User receives activation email and sets their desired password. 
+- Cisca Joseph receives okta activation email and they are required to set their desired password.
 
+[Cisca Joseph receives okta account activation email](https://github.com/Frannie-cpu/Okta-professional-hands-on-labs/blob/main/Lab-02-User-Lifecycle/screenshots/New%20user%20activation%20email.PNG)
+
+[Cisca Joseph receives okta verify activation email for mfa](https://github.com/Frannie-cpu/Okta-professional-hands-on-labs/blob/main/Lab-02-User-Lifecycle/screenshots/New%20user%20okta%20verify%20setup.PNG)
+
+[Cisca Joseph is required to create a new password for their okta account](https://github.com/Frannie-cpu/Okta-professional-hands-on-labs/blob/main/Lab-02-User-Lifecycle/screenshots/New%20user%20password%20set%20up.PNG)
+
+- Once Cisca Joseph activates their okta account and changes to a desired password, status on OKTA changes from **Staged** to **Active**
+  
 [Activated user and confirmed transition to Active,thereby enabling authentication](https://github.com/Frannie-cpu/Okta-professional-hands-on-labs/blob/main/Lab-02-User-Lifecycle/screenshots/User%20activation%20changed%20status%20to%20Active.png)
 
 
-- Tested new user's ability to log in. See 4 screenshots below.
+- I tested Cisca Joseph's ability to log in. See 4 screenshots below.
 
-[User enters username](https://github.com/Frannie-cpu/Okta-professional-hands-on-labs/blob/main/Lab-02-User-Lifecycle/screenshots/Testing%20provisioned%20user%201.png)
+[Cisca Joseph enters username](https://github.com/Frannie-cpu/Okta-professional-hands-on-labs/blob/main/Lab-02-User-Lifecycle/screenshots/Testing%20provisioned%20user%201.png)
 
-[User enters their password](https://github.com/Frannie-cpu/Okta-professional-hands-on-labs/blob/main/Lab-02-User-Lifecycle/screenshots/Testing%20provisioned%20user%20II.png)
+[Cisca Joseph their password](https://github.com/Frannie-cpu/Okta-professional-hands-on-labs/blob/main/Lab-02-User-Lifecycle/screenshots/Testing%20provisioned%20user%20II.png)
 
-[User is prompted to enter code for okta verify authenticator app](https://github.com/Frannie-cpu/Okta-professional-hands-on-labs/blob/main/Lab-02-User-Lifecycle/screenshots/Testing%20provisioned%20user%20III.png/)
+[Cisca Joseph is prompted to enter code for okta verify authenticator app](https://github.com/Frannie-cpu/Okta-professional-hands-on-labs/blob/main/Lab-02-User-Lifecycle/screenshots/Testing%20provisioned%20user%20III.png/)
 
-[User enters username](https://github.com/Frannie-cpu/Okta-professional-hands-on-labs/blob/main/Lab-02-User-Lifecycle/screenshots/Testing%20provisioned%20user%20IIII.png)
+[Cisca Joseph successfully signed on OKTA using their credentials](https://github.com/Frannie-cpu/Okta-professional-hands-on-labs/blob/main/Lab-02-User-Lifecycle/screenshots/Testing%20provisioned%20user%20IIII.png)
 
 
 
