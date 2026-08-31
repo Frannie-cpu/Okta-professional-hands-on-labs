@@ -1,6 +1,6 @@
 # Okta-professional-hands-on-labs
 
-This repository documents my hands-on practice of IAM principles and fundamentals with okta.
+This repository documents my hands-on practice of IAM principles and fundamentals with OKTA.
 
 ## The environment used
 
