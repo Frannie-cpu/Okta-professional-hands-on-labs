@@ -48,7 +48,8 @@ Tested both:
 User-activated via email for first user
 Admin-set password for second user
 Observed initial Staged status prior to activation for first user
-(Insert screenshot here titled "User account was created but not activated, resulting in staged status").
+
+[User account was created but not activated, resulting in staged status](https://github.com/Frannie-cpu/Okta-professional-hands-on-labs/blob/main/Lab-02-User-Lifecycle/screenshots/staged%20unactivated%20user.png)
 
 User receives activation email and sets their desired password. Activated user and confirmed transition to Active.
 (Insert screenshot here titled "Activation changed status to Active, enabling authentication").
