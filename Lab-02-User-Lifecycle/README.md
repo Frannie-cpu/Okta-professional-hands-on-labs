@@ -114,17 +114,10 @@ The architecture is designed around the principle of:
 
 > **Right user → Right access → Right time → Right level of privilege**
 
-The lifecycle model helps ensure that:
+### The lifecycle model ensures:
 
-* New employees receive appropriate access
-* Existing employees receive access appropriate to their current roles
-* Unnecessary access is removed when responsibilities change
-* Departing employees have access revoked
-* Authentication requirements are enforced
-* Authorization determines permitted application access
-* Application access can be centrally managed
-* Access can be reviewed and governed over time
-* Identity activity can be monitored and audited
+**Right access → Right role → Right time → Secure authentication → Proper authorization → Controlled application access → Regular reviews → Continuous monitoring**
+
 
 ---
 ---
