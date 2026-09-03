@@ -12,6 +12,8 @@ Lifecycle Phases in IAM are-
 
 **Leaver**- Access revocation and account deactivation
 
+##Architecture Diagram
+(insert lucidchart diagram with description footer text This architecture demonstrates how user lifecycle states in Okta affect authentication and downstream application access. Administrative actions directly influence user status and access permissions.)
 
 ## Objective
 To implement and analyze User Lifecycle Management (ULM) in Okta by creating users, managing lifecycle state transitions (Staged, Active, Suspended, Locked Out, Deactivated), and evaluating how each state impacts authentication and application access. 
@@ -19,8 +21,6 @@ To implement and analyze User Lifecycle Management (ULM) in Okta by creating use
 **However, this page only covers one User Creation (Joiner Phase) with Authentication on OKTA. 
 See a [more extensive IAM project](https://github.com/Frannie-cpu/iam-project) on Microsoft Entra ID**
 
-##Architecture Diagram
-(insert lucidchart diagram with description footer text This architecture demonstrates how user lifecycle states in Okta affect authentication and downstream application access. Administrative actions directly influence user status and access permissions.)
 
 ## Configuration
 **User Creation (Joiner Phase)**
