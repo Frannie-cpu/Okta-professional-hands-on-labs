@@ -17,6 +17,6 @@ This repository documents my hands-on practice of IAM principles and fundamental
 
 [Lab 02](https://github.com/Frannie-cpu/Okta-professional-hands-on-labs/blob/main/Lab-02-User-Lifecycle/README.md) covers User Provisioning 
 
-
+**See a [more extensive IAM project](https://github.com/Frannie-cpu/iam-project) on Microsoft Entra ID**
 
 
