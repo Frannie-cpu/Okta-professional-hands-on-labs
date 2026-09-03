@@ -95,7 +95,7 @@ The architecture follows the three major lifecycle stages:
 ---
 IAM extends beyond simply creating user accounts. It is a continuous process of **establishing identity, managing access, verifying users, enforcing authorization, monitoring activity, and governing access throughout the identity lifecycle.**
 
-## Identity Governance & Security Controls
+### Identity Governance & Security Controls
 
 * **Least Privilege** — Users receive only the access required for their job.
 * **Access Reviews** — User access is periodically reviewed and approved or revoked.
@@ -107,23 +107,22 @@ IAM extends beyond simply creating user accounts. It is a continuous process of 
 * **Policy Enforcement** — Security and access policies are consistently applied to user access.
 * **Compliance** — Access controls and records support regulatory and organizational requirements.
 
-
-## Security Objective
-
-The architecture is designed around the principle of:
-
-> **Right user → Right access → Right time → Right level of privilege**
-
 ### The lifecycle model ensures:
 
 **Right access → Right role → Right time → Secure authentication → Proper authorization → Controlled application access → Regular reviews → Continuous monitoring**
 
+### Security Objective
+
+The architecture is designed around the principle of:
+
+**Right user → Right access → Right time → Right level of privilege**
+
+
 
 ---
 ---
 
-
-The initial goal was to analyse User Lifecycle Management (ULM) in Okta by creating users, managing lifecycle state transitions (Staged, Active, Suspended, Locked Out, Deactivated), and evaluating how each state impacts authentication and application access. 
+The initial goal for this lab was to analyse User Lifecycle Management (ULM) in Okta by creating users, managing lifecycle state transitions (Staged, Active, Suspended, Locked Out, Deactivated), and evaluating how each state impacts authentication and application access. 
 
 **However, I was able to only cover the User Creation (Joiner Phase) with Authentication on OKTA. 
 See a [more extensive IAM project](https://github.com/Frannie-cpu/iam-project) on Microsoft Entra ID**
